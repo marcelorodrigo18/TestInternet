@@ -5,13 +5,13 @@ now = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
 test = speedtest.Speedtest()
 
-#faz o test de download e converte em mb's
+#test of download
 
 down = test.download()
 rsDown = round(down)
 fDown = int(rsDown / 1e+6)
 
-#faz o test de upload e converte em mb's
+#test of upload
 
 upload = test.upload()
 rsUp = round(upload)
@@ -35,4 +35,5 @@ conn.commit()
 
 # Closing the connection
 conn.close()
+
 

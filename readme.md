@@ -1,0 +1,1 @@
+# Realizar teste de internet e Salvar no sqlite
