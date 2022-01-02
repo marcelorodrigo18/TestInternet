@@ -1,4 +1,4 @@
-# Realizar teste de internet e Salvar no sqlite
+# Realiza o teste de velocidade da internet e Salva os resultados no sqlite
 
 O intuito deste projeto é realizar o teste de velocidade da internet, retornando os valores de download e upload.
 
